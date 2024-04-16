@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    position: relative;
+}
+.title{
+    background: url(background-title.jpeg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.profile{
+    background-image: url(./IMG_5789.JPG) ;
+    background-position: top;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 0px  10px 3px rgb(54, 0, 141);
+    border: 1px solid rgb(54, 0, 141);
+}
+.pf{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding-left: 44%;
+    
+    
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+}
